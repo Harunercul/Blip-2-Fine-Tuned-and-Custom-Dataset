@@ -13,6 +13,8 @@ Bugün Blip-2 Modelini Custom Dataset ile fine tuned edicez ana hedefimiz image 
 
 # Eğitimi başlatmak
 Eğitim yapmak için kodu paylaşıyorum sizin için kendinize göre batch size değerini datanızı ve epoch değerinizi ayarlayabilirsiniz.
+# Eğitim Bittikten sonra
+FinishTrain.py dosyasından eğittiniz yeni modeli huggingface yükleyip test edebilirsiniz
 
 # English Version
 
@@ -29,6 +31,8 @@ Screenshot from sample data:
 
 # Start the training
 I am sharing the code to make training for you, you can set the batch size value for yourself and your epoch value.
+# After the training is over
+You can test the new model you trained from FinishTrain.py by loading huggingface
 
 
 # Eğitimi Multi-GPU kullanarak yapmak istiyorsanız diğer repomda paylaşıcam bunun nedeni kullandığımız model aşırı büyük bu yüzden cpu da yavaş çalışıyor eğer birden fazla datanız var ise Multi-GPU ile eğitimi başlatabilirsiniz diğer repomda paylaşacağım.
